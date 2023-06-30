@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Contact Form with Captcha</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+
+    <section id="contact">
+        <div class="content">
+            <div id="form">
+                <h1 class="header">Contact Form </h1>
+                <form action="" id="contactForm" method="post">
+                    <span>Name</span>
+                    <input type="text" name="name" class="name" placeholder="Enter your name" tabindex=1 />
+                    <span>Email</span>
+                    <input type="text" name="email" class="email" placeholder="Enter your email" tabindex=2 />
+                    <span>Message</span>
+                    <textarea class="message" placeholder="Enter your message (atleast 30 characters)" tabindex=4></textarea>
+                    <span id="captcha"></span>
+                    <input type="text" name="captcha" class="captcha" maxlength="4" size="4" placeholder="Enter captcha code" tabindex=3 />
+                    <input type="submit" name="submit" value="Send e-mail" class="submit" tabindex=5>
+                </form>
+            </div>
+    </section>
+</body>
+</html>
